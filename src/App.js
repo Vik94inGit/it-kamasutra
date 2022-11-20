@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
-import Header from './componensts/Header'
-import Navbar from './componensts/Navbar';
-import Profile from './componensts/Profile';
+import Dialogs from './componensts/Dialogs/Dialogs';
+import Header from './componensts/Header/Header'
+import Navbar from './componensts/Navbar/Navbar';
+import Profile from './componensts/Profile/Profile';
 
 const App =() =>{
   return (
@@ -10,6 +11,7 @@ const App =() =>{
      <Header />
      <Navbar />
      <Profile />
+     <Dialogs />
     
        
      
